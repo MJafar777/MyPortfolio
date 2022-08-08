@@ -46,7 +46,55 @@ const Resume = () => {
               </a>
             </div>
           </div>
-          <div className="rightAbout"></div>
+          <div className="rightAbout">
+            <div id="education" className="education">
+              {/* first education level */}
+              <div className="edu-card">
+                <div className="col-md-1">
+                  <div className="edu">
+                    <div className="sircle"></div>
+                    <h3 className="edu-name">
+                      Tashkent College of Information Technologies
+                    </h3>
+                  </div>
+                  <div className="edu">
+                    <h3>In the department of telecommunications</h3>
+                  </div>
+                </div>
+                <div className="col-md-2">2017-2020</div>
+              </div>
+              {/* secondary education level */}
+              <div className="edu-card">
+                <div className="col-md-1">
+                  <div className="edu">
+                    <div className="sircle"></div>
+                    <h3 className="edu-name">
+                      ICT Academy Information Technologies
+                    </h3>
+                  </div>
+                  <div className="edu">
+                    <h3>Frontend and Backend web developer</h3>
+                  </div>
+                </div>
+                <div className="col-md-2">2019-2020</div>
+              </div>
+              {/* thirty education level */}
+              <div className="edu-card">
+                <div className="col-md-1">
+                  <div className="edu">
+                    <div className="sircle"></div>
+                    <h3 className="edu-name">
+                      MagicSoft Company Information Technologies
+                    </h3>
+                  </div>
+                  <div className="edu">
+                    <h3>In the department of telecommunications</h3>
+                  </div>
+                </div>
+                <div className="col-md-2">2021-2022</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

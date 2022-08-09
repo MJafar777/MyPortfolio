@@ -1,3 +1,8 @@
+.rightAbout {
+  scroll-behavior: smooth !important;
+  transition: all 1.5s;
+}
+
 .resume-container {
   margin-top: 10rem;
   width: 80%;
@@ -60,7 +65,7 @@
   width: 70%;
   margin-left: 2rem;
   height: 34rem;
-  background-color: rgba(255, 0, 0, 0.119);
+  /* background-color: rgba(255, 0, 0, 0.119); */
   overflow-x: scroll;
   transition: all 2s;
 }
@@ -70,6 +75,11 @@
   font-size: 40px;
 }
 /* education cards styles */
+
+.edu-card1 {
+  padding-top: 40px !important;
+  margin-top: 2rem !important;
+}
 .edu-card {
   display: flex;
   align-items: center;
@@ -89,6 +99,7 @@
   margin: 10px auto;
   font-weight: 600;
 }
+.sircle,
 .sircle {
   width: 30px;
   height: 30px;
@@ -110,4 +121,88 @@
   color: var(--dark-orange) !important;
   font-size: 24px !important;
   font-weight: 700 !important;
+}
+
+/* education cards styles finished */
+
+/* work-history started */
+
+.work-history {
+  margin-top: 2rem;
+}
+
+/* work-history finished */
+
+/* programming-skills strated */
+
+.programming-skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 5rem auto;
+}
+.prog-children {
+  margin-top: 30px;
+}
+.prog-children-top {
+  padding-top: 1rem;
+}
+.prog-children1 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.type-language {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: var(--dark-orange);
+  font-weight: 600;
+}
+.prog-children2 {
+  width: 300px;
+  height: 30px;
+  background-color: var(--dark-orange);
+  margin-left: -28px;
+  margin-top: 5px;
+}
+.learning {
+  width: 80%;
+  height: 30px;
+  display: block;
+  background-color: var(--black);
+  cursor: wait;
+}
+/* programming-skills finished  */
+
+/* projects Started */
+.projects {
+  width: 90%;
+  margin-top: 300px;
+}
+.imgg {
+  width: 600px;
+  height: 400px;
+  text-align: center;
+  border: 5px solid var(--dark-orange);
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 40px;
+  user-select: none;
+}
+.projects-title {
+  scroll-behavior: smooth;
+  overflow-x: scroll;
+  width: 90%;
+  margin: 2rem auto;
+  display: flex;
+}
+.scrol {
+  padding: 0.1px 10px;
+  background-color: rgba(128, 128, 128, 0.594);
+  border-radius: 3px;
+  margin: 0 5px;
+}
+.scrol:focus {
+  background-color: var(--dark-orange);
 }
